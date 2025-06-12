@@ -1,5 +1,9 @@
 @echo off
 setlocal enabledelayedexpansion
+REM print("")
+REM print("Developed by Jacob Wilson - Version 0.2")
+REM print("dfirvault@gmail.com")
+REM print("")
 
 :: Initialize variables
 set "configFile=case_config.txt"
@@ -42,6 +46,9 @@ echo [3] Change backup location
 echo [0] Exit
 echo ========================================
 echo Current backup location: %backupLocation%
+echo ========================================
+echo Developed by Jacob Wilson - Version 0.1
+echo dfirvault@gmail.com
 echo ========================================
 set /p choice="Enter your choice: "
 
