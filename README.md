@@ -64,6 +64,9 @@ Current version: 0.2
 📧 dfirvault@gmail.com
 [https://www.linkedin.com/in/jacob--wilson/](https://www.linkedin.com/in/jacob--wilson/)
 
+**More information:**
+[https://dfirvault.com](https://dfirvault.com)
+
 ## Notes
 
 - First run will prompt for backup location configuration
