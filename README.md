@@ -2,6 +2,10 @@
 
 A batch script utility for creating and archiving digital forensics cases with standardized folder structures.
 ![image](https://github.com/user-attachments/assets/802b8423-4654-46ee-8510-229114265c62)
+![image](https://github.com/user-attachments/assets/461c23db-71bd-42f5-8b4a-ad8b8fee6a85)
+![image](https://github.com/user-attachments/assets/bc43366c-b2ef-4a2f-a103-6d14741e624b)
+![image](https://github.com/user-attachments/assets/ab47fa73-4d96-4f41-be30-ff9b80baaf47)
+![image](https://github.com/user-attachments/assets/3f42d436-9c23-46da-9a20-83521616a67f)
 
 ## Features
 
