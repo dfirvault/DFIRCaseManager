@@ -1,6 +1,7 @@
 # DFIR Case Management Tool
 
 A batch script utility for creating and archiving digital forensics cases with standardized folder structures.
+![image](https://github.com/user-attachments/assets/802b8423-4654-46ee-8510-229114265c62)
 
 ## Features
 
