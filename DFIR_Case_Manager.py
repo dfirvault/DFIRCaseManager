@@ -78,7 +78,12 @@ def create_case():
     os.makedirs(os.path.join(case_name, "01 - Evidence"), exist_ok=True)
     os.makedirs(os.path.join(case_name, "02 - Case"), exist_ok=True)
     os.makedirs(os.path.join(case_name, "03 - Malware"), exist_ok=True)
-    os.makedirs(os.path.join(case_name, "03 - Extracted Evidence"), exist_ok=True)
+    extracted_evidence = os.path.join(case_name, "04 - Extracted Evidence")
+    os.makedirs(extracted_evidence, exist_ok=True)
+    subdirs = ["01 - Axiom", "02 - XWays", "03 - Thor", "04 - Hayabusa"]
+    for sub in subdirs:
+        os.makedirs(os.path.join(extracted_evidence, sub), exist_ok=True)
+    
     open(os.path.join(case_name, "Keywords.txt"), "a").close()
     print(f"Case '{case_name}' created successfully.")
     os.startfile(os.path.abspath(case_name))
@@ -155,7 +160,7 @@ def change_backup_location():
 
 def main():
     """Main program loop"""
-    print("\nDeveloped by Jacob Wilson - Version 0.3")
+    print("\nDeveloped by Jacob Wilson - Version 0.4")
     print("dfirvault@gmail.com\n")
     
     print("DFIR Case Manager")
