@@ -80,7 +80,7 @@ def create_case():
     os.makedirs(os.path.join(case_name, "03 - Malware"), exist_ok=True)
     extracted_evidence = os.path.join(case_name, "04 - Extracted Evidence")
     os.makedirs(extracted_evidence, exist_ok=True)
-    subdirs = ["01 - Axiom", "02 - XWays", "03 - Thor", "04 - Hayabusa"]
+    subdirs = ["01 - Axiom", "02 - XWays", "03 - Thor", "04 - Hayabusa", "05 - Chainsaw"]
     for sub in subdirs:
         os.makedirs(os.path.join(extracted_evidence, sub), exist_ok=True)
     
